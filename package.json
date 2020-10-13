@@ -8,6 +8,7 @@
   "private": true,
   "scripts": {
     "clean": "rm -rf bitmaps themes",
+    "render":"yarn render:bibata-modern && yarn render:bibata-original",
     "render:bibata-modern": "yarn workspace bibata-modern render",
     "render:bibata-original": "yarn workspace bibata-original render",
     "build": "rm -rf themes && python build.py",
