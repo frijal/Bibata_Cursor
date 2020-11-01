@@ -12,7 +12,7 @@ from .pkg_info import info
 
 # Build Config
 delay = 35
-sizes = [22, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96]
+sizes = [18, 20]
 
 # read hotspots file
 with open(path.join(__path__[0], "hotspots.json")) as hotspot_file:
