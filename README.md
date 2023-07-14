@@ -134,6 +134,15 @@ sudo dnf copr enable peterwu/rendezvous
 sudo dnf install bibata-cursor-themes
 ```
 
+#### Debian
+
+##### using latest Debian 12 Bookworm
+
+```bash
+sudo apt update
+sudo apt install bibata-cursor-theme
+```
+
 ##### copr-repo by @muhalantabli
 
 ```bash
